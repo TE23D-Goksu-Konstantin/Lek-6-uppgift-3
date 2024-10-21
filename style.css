@@ -1,0 +1,82 @@
+body{
+    border: black transparent 3px;
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-template-rows: 15vh 15vh 80vh 15vh;
+    gap: 5px;
+}
+
+
+
+#logogaga{
+    border: black solid 3px;
+    border-radius: 10px;
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-self: center;
+}
+
+header{
+    border: white solid 3px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 99%;
+    margin-top: 17px;
+
+}
+
+
+aside{
+    border: solid black 3px;
+    border-radius: 10px;
+    background-image: url(./img/dragon_side.png);
+    border-image: fill;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-right: 5px;
+    height: 1020px;
+}
+
+
+nav{
+    border: solid white 3px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+a{
+    color: white;
+}
+
+
+article{
+    background-color: black;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding-bottom: 910px;
+}
+
+img{
+    width: 300px;
+}
+
+footer{
+    height: 50px;
+    background-color: black;
+    border: white solid 3px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 470px;
+    text-align: center;
+}
